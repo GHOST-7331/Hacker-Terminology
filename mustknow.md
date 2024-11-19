@@ -42,3 +42,11 @@
 - **Cross-Site Request Forgery (CSRF)**: An attack that tricks a user into performing unintended actions on a website where they are authenticated, potentially leading to unauthorized actions.
 - **DNS Tunneling**: A method used by attackers to encode data into DNS queries and responses to bypass firewalls or other security measures.
 - **Firewall Evasion**: The process of bypassing or disabling security controls like firewalls, IDS/IPS, or VPNs to gain unauthorized access to a system or network.
+- **Cyber Kill Chain**: A model developed by Lockheed Martin that breaks down the stages of a cyberattack into seven steps: 
+   1. **Reconnaissance**: Information gathering about the target.
+   2. **Weaponization**: Creating malicious payloads (e.g., malware) based on the gathered intelligence.
+   3. **Delivery**: Transmitting the weaponized payload to the target.
+   4. **Exploitation**: Exploiting vulnerabilities to execute the payload.
+   5. **Installation**: Installing the malware on the target system.
+   6. **Command and Control (C2)**: Establishing communication with the compromised system.
+   7. **Actions on Objectives**: Executing the attacker's ultimate goals (e.g., exfiltrating data, damaging the system, etc.).
