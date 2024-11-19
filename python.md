@@ -1,0 +1,53 @@
+# Must-Know Python Terminology for Penetration Testers
+
+- **Interpreter**: A program that executes Python code directly, line by line, as opposed to compiling it into machine code.
+- **Variable**: A storage location in memory that holds a value, which can be changed during program execution. Variables are dynamically typed in Python.
+- **Data Types**: Defines the type of data a variable can hold. Common data types in Python include:
+  - **int**: Integer numbers.
+  - **str**: Strings, or sequences of characters.
+  - **list**: Ordered, mutable collections of items.
+  - **tuple**: Ordered, immutable collections of items.
+  - **dict**: Unordered collections of key-value pairs.
+  - **set**: Unordered collections of unique elements.
+  - **bool**: Boolean values (`True` or `False`).
+  - **float**: Floating-point numbers (decimal values).
+- **Function**: A block of reusable code that performs a specific task. Functions in Python are defined using the `def` keyword.
+- **Method**: A function that is associated with an object (like strings, lists, or dictionaries). Methods are invoked using dot notation (e.g., `my_list.append()`).
+- **Lambda**: A small anonymous function defined using the `lambda` keyword, often used for short operations or functional programming.
+- **List Comprehension**: A compact way to create lists in Python using a single line of code (e.g., `[x for x in range(10)]`).
+- **Loop**: A programming structure that repeats a block of code. Python has `for` and `while` loops.
+  - **for**: Used for iterating over a sequence (e.g., lists, strings).
+  - **while**: Repeats a block of code as long as a condition is true.
+- **Exception Handling**: A way to handle errors in a program using `try`, `except`, and `finally` blocks. This ensures the program doesn’t crash due to unforeseen issues.
+- **Modules**: Files containing Python code that can be imported and reused in other programs. Python has a large standard library, and third-party libraries are available via `pip`.
+- **Package**: A collection of Python modules organized in directories. A package allows you to bundle related modules together.
+- **Class**: A blueprint for creating objects, which are instances of the class. Classes are defined using the `class` keyword.
+- **Object-Oriented Programming (OOP)**: A programming paradigm that uses classes and objects. Key concepts include:
+  - **Inheritance**: When a class inherits methods and attributes from another class.
+  - **Polymorphism**: The ability to use a method in multiple ways, depending on the object calling it.
+  - **Encapsulation**: Hiding internal details of an object and exposing only necessary features.
+  - **Abstraction**: Hiding complex details and showing only essential parts of an object or function.
+- **Decorator**: A function that modifies the behavior of another function or class. Decorators are often used in web frameworks like Flask and Django.
+- **Generator**: A function that returns an iterable set of items one at a time, using the `yield` keyword. Useful for working with large datasets.
+- **Context Manager**: A Python construct that allows for resource management, typically used with the `with` keyword (e.g., handling file operations or database connections).
+- **Global and Local Variables**: Variables can be defined globally (accessible throughout the script) or locally (limited to a specific function or block).
+- **Import**: The mechanism by which code from other modules or packages is accessed. Python allows importing specific functions, classes, or entire modules.
+- **List vs. Tuple**: Lists are mutable (can be changed), whereas tuples are immutable (cannot be altered after creation).
+- **Pythonic**: A term used to describe code that adheres to the idiomatic conventions of Python, focusing on simplicity and readability (e.g., using list comprehensions instead of loops).
+- **Scope**: The region of the program where a variable can be accessed. Python has global, local, and built-in scopes.
+- **Threading**: The ability to run multiple threads (smaller units of a process) concurrently. Python’s `threading` module allows for multitasking, useful for parallelizing tasks like network scans.
+- **Asynchronous Programming**: A programming style that allows functions to run concurrently without blocking the main program flow. Python's `asyncio` library enables this style.
+- **REPL (Read-Eval-Print Loop)**: An interactive Python shell that evaluates expressions and outputs results immediately. Useful for testing small code snippets or learning Python.
+- **Garbage Collection**: Automatic memory management in Python that reclaims memory used by objects that are no longer in use.
+- **JSON (JavaScript Object Notation)**: A lightweight data-interchange format often used in web communication. Python has a `json` module for parsing and generating JSON data.
+- **Regex (Regular Expressions)**: A powerful tool for matching patterns in strings. Python’s `re` module allows you to work with regex for searching and manipulating text.
+- **Pip**: The Python package installer, used to install and manage third-party libraries (e.g., `pip install requests`).
+- **Virtual Environment**: An isolated environment in which Python packages and dependencies can be managed independently of the global Python installation. Python’s `venv` module is commonly used for this.
+- **Python Shell**: The interactive command-line interface that allows you to enter and execute Python code in real time.
+- **Docstrings**: A special type of comment in Python that documents a function or class. Accessible via `help()` function or `.__doc__` attribute.
+- **Self**: A reference to the current instance of the class in object-oriented programming. Used to access variables and methods of the instance.
+- **List slicing**: A way to access a part of a list or other iterable using the syntax `[start:stop:step]`.
+- **Built-in Functions**: Python has many built-in functions such as `print()`, `len()`, `type()`, and `input()` to handle basic operations.
+- **Set Operations**: Operations like union, intersection, and difference that can be performed on sets (e.g., `set1.union(set2)`).
+- **Map and Filter**: Functions for applying operations to collections. `map()` applies a function to each item in a collection, while `filter()` returns items that satisfy a condition.
+
